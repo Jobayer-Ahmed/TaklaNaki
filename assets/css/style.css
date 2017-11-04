@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+
+.hide {
+	display: none;
+}
+
+.card {
+	width: 450px;
+	height: 240px;
+	background-color: #000;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	position:absolute;
+    left:50%;
+    top:50%;
+    margin-top: -140px;
+    margin-left: -225px;
+}
+
+.heading {
+	padding-top: 30px;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.input {
+	width: 350px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.message {
+	line-height: 240px;
+	font-size: 50px;
+	font-weight: 900;
+}
+
+.github-corner:hover .octo-arm {
+	animation:octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave { 
+	0%,100% {
+		transform:rotate(0)
+	}
+	20%,60% {
+		transform:rotate(-25deg)
+	}
+	40%,80% {
+		transform:rotate(10deg)
+	}
+}
+
+@media (max-width:500px) {
+	.github-corner:hover .octo-arm {
+		animation:none
+	}
+	.github-corner .octo-arm {
+		animation:octocat-wave 560ms ease-in-out
+	}
+}
